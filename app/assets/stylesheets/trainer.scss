@@ -1,0 +1,26 @@
+// Place all the styles related to the Trainer controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url("plains.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar {
+  display: block;
+  background-color: black;
+  // back
+}
+.logo {
+  img{
+    width: 260px;
+  }
+  background-color: black;
+}
+
+.greeting{
+
+}
