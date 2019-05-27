@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root 'trainer#welcome'
   resources :trainer, only: [:index]
 
+  resources :pokemon, only: [:index, :show]
 end
