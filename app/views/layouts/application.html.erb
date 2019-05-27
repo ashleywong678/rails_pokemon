@@ -11,10 +11,11 @@
 
   <body>
     <div class='logo'>
-      <%# <a href='/'><img src='/images/logo.png' alt='pokemon_logo'></a> %>
-      <%= image_tag asset_path('logo.png')%>
+      <a href='/'><%= image_tag asset_path('logo.png')%></a>
     </div>
-
-    <%= yield %>
+    <br>
+    <div class='center green-box'>
+      <%= yield %>
+    </div>
   </body>
 </html>
