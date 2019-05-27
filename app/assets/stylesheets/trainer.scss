@@ -26,17 +26,13 @@ body {
 .green-box{
   background-color: rgba(48, 221, 48, 0.4)
 }
-a.btn{
-   display:inline-block;
- padding:0.5em 3em;
- border:0.16em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- box-sizing: border-box;
- text-decoration:none;
- text-transform:uppercase;
- font-family:'Roboto',sans-serif;
- font-weight:400;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.15s;
+.btn{
+}
+.trainer{
+  height: 500px;
+  margin: 50px;
+}
+.grid-container{
+  display: grid;
+  justify-content: center;
 }
