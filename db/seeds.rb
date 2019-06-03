@@ -6,7 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+Poke.create(name: 'Bulbasaur', pokedex_number: 001, image: 'pokedex/001-bulbasaur.jpeg')
+Poke.create(name: 'Ivysaur', pokedex_number: 002, image: 'pokedex/002-ivysaur.jpeg')
 
 Type.create(name: 'Grass')
 Type.create(name: 'Water')

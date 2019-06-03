@@ -13,14 +13,14 @@
 ActiveRecord::Schema.define(version: 2019_06_03_195031) do
 
   create_table "pokemon_types", force: :cascade do |t|
-    t.integer "pokemon_id"
+    t.integer "poke_id"
     t.integer "type_id"
   end
 
   create_table "pokes", force: :cascade do |t|
     t.string "name"
     t.integer "pokedex_number"
-    t.binary "image"
+    t.string "image"
   end
 
   create_table "types", force: :cascade do |t|
