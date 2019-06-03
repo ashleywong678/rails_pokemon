@@ -1,0 +1,5 @@
+<% @pokes.each do |p| %>
+  <h3>#<%= p.pokedex_number%> - <%=p.name %></h3>
+  <%= image_tag p.image %>
+  <br>
+<% end %>
