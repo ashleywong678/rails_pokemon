@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   root 'trainer#welcome'
   resources :trainer, only: [:index]
 
-  resources :pokes, only: [:index, :show]
+  # resources :pokes, only: [:index, :show]
+  get 'pokedex', to: 'pokes#index'
+  
 end
