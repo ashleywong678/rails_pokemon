@@ -9,30 +9,34 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
 .nav-bar {
   display: block;
 }
+
 .logo {
-  img{
+  img {
     width: 260px;
   }
-  background-color: #00a300;
 }
 
-.center{
+.center {
   margin: auto;
   text-align: center;
 }
-.green-box{
+
+.green-box {
   background-color: rgba(48, 221, 48, 0.4)
 }
-.btn{
-}
-.trainer{
+
+.btn {}
+
+.trainer {
   height: 500px;
   margin: 50px;
 }
-.grid-container{
+
+.grid-container {
   display: grid;
   justify-content: center;
 }
